@@ -227,6 +227,17 @@
 	.contact-content { padding: 50px 0; }
 	.page-header { padding: 60px 0; }
 	.page-header h1 { font-size: 2.2rem; color: #f39c12; }
+	
+	/* Mobile: Show location images directly without hover */
+	.hyderabad-btn .map-icon,
+	.khammam-btn .map-icon {
+		opacity: 0;
+	}
+	
+	.hyderabad-btn .location-image,
+	.khammam-btn .location-image {
+		opacity: 1;
+	}
 }
 
 /* Mobile (481px - 600px) */
