@@ -220,7 +220,7 @@ export default function About() {
 							</div>
 							<div className="advantage-card-body">
 								<h3>Licensed & Certified Professionals</h3>
-								<p>All our technicians are fully licensed, trained, and certified in the latest pest control methods and safety protocols. We maintain the highest industry standards.</p>
+								<p>Fully licensed and certified technicians with industry-standard training.</p>
 							</div>
 							<div className="advantage-card-footer">
 								<div className="advantage-highlight">
@@ -235,7 +235,7 @@ export default function About() {
 							</div>
 							<div className="advantage-card-body">
 								<h3>Safe & Effective Products</h3>
-								<p>We use only EPA-approved, safe products that are highly effective against pests while being completely safe for your family, pets, and the environment.</p>
+								<p>EPA-approved products safe for your family, pets, and environment.</p>
 							</div>
 							<div className="advantage-card-footer">
 								<div className="advantage-highlight">
@@ -250,7 +250,7 @@ export default function About() {
 							</div>
 							<div className="advantage-card-body">
 								<h3>24/7 Emergency Service</h3>
-								<p>Round-the-clock emergency pest control services. Call us anytime for urgent pest problems - we're always ready to help when you need us most.</p>
+								<p>Round-the-clock emergency services for urgent pest problems.</p>
 							</div>
 							<div className="advantage-card-footer">
 								<div className="advantage-highlight">
@@ -265,7 +265,7 @@ export default function About() {
 							</div>
 							<div className="advantage-card-body">
 								<h3>Transparent Pricing</h3>
-								<p>Competitive rates with completely transparent pricing. No hidden charges, surprise fees, or unexpected costs - what you see is what you pay.</p>
+								<p>Competitive rates with no hidden charges or surprise fees.</p>
 							</div>
 							<div className="advantage-card-footer">
 								<div className="advantage-highlight">
@@ -280,7 +280,7 @@ export default function About() {
 							</div>
 							<div className="advantage-card-body">
 								<h3>Guaranteed Results</h3>
-								<p>We stand behind our work with comprehensive service warranties and follow-up support to ensure your complete satisfaction and peace of mind.</p>
+								<p>Comprehensive service warranties and follow-up support.</p>
 							</div>
 							<div className="advantage-card-footer">
 								<div className="advantage-highlight">
@@ -295,7 +295,7 @@ export default function About() {
 							</div>
 							<div className="advantage-card-body">
 								<h3>Eco-Friendly Solutions</h3>
-								<p>Environmentally responsible pest control methods that protect your property and the environment while delivering effective results.</p>
+								<p>Environmentally responsible methods that protect your property.</p>
 							</div>
 							<div className="advantage-card-footer">
 								<div className="advantage-highlight">
