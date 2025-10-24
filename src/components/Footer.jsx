@@ -76,7 +76,7 @@ export default function Footer() {
 								<div className="hours">
 								<div className="hours-item">
 									<span>Mon-Sat:</span>
-									<span>9.00-18.00</span>
+									<span>9:00 AM - 6:00 PM</span>
 								</div>
 									<div className="hours-item emergency">
 										<span>Emergency:</span>
