@@ -91,28 +91,39 @@ export default function Footer() {
 							<h4>Service Areas</h4>
 							<div className="service-areas-container">
 								<div className="area-category">
-									<h5>Central Hyderabad</h5>
+									<h5>Hyderabad</h5>
 									<div className="area-tags">
 										<span className="area-tag">Jubilee Hills</span>
 										<span className="area-tag">HITEC City</span>
 										<span className="area-tag">Gachibowli</span>
 										<span className="area-tag">Kondapur</span>
-									</div>
-								</div>
-								<div className="area-category">
-									<h5>North Hyderabad</h5>
-									<div className="area-tags">
 										<span className="area-tag">Secunderabad</span>
 										<span className="area-tag">Kukatpally</span>
 										<span className="area-tag">Madhapur</span>
-										<span className="area-tag">Miyapur</span>
+										<span className="area-tag">Charminar</span>
+										<span className="area-tag">Asif Nagar</span>
+										<span className="area-tag">Uppal</span>
+										<span className="area-tag">BHEL</span>
+										<span className="area-tag">All Areas</span>
+									</div>
+								</div>
+								<div className="area-category">
+									<h5>Khammam</h5>
+									<div className="area-tags">
+										<span className="area-tag">Khammam City</span>
+										<span className="area-tag">Jayanagar</span>
+										<span className="area-tag">Kothagudem</span>
+										<span className="area-tag">Bhadrachalam</span>
+										<span className="area-tag">Paloncha</span>
+										<span className="area-tag">Sathupally</span>
 									</div>
 								</div>
 								<div className="area-category">
 									<h5>Coverage</h5>
 									<div className="area-tags">
-										<span className="area-tag special">All Areas</span>
 										<span className="area-tag special">24/7 Service</span>
+										<span className="area-tag special">Emergency</span>
+										<span className="area-tag special">All Districts</span>
 									</div>
 								</div>
 							</div>

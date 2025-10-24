@@ -362,43 +362,53 @@ export default function About() {
 				<div className="container">
 					<div className="section-header">
 						<h2>Our Service Coverage</h2>
-						<p>Comprehensive pest control services across Hyderabad and surrounding regions</p>
+						<p>Comprehensive pest control services across Hyderabad and Khammam districts</p>
 					</div>
 					<div className="coverage-content">
 						<div className="coverage-intro">
-							<h3>Complete Coverage Across Hyderabad</h3>
+							<h3>Complete Coverage Across Our Service Areas</h3>
 							<p>
-								We provide comprehensive pest control services throughout Hyderabad and its surrounding areas. Our extensive coverage ensures that no matter where you are located, we can provide prompt, professional pest control solutions.
+								We provide comprehensive pest control services throughout Hyderabad and Khammam districts. Our extensive coverage ensures that no matter where you are located, we can provide prompt, professional pest control solutions.
 							</p>
 						</div>
 						<div className="areas-grid">
 							<div className="area-card">
 								<div className="area-icon">🏙️</div>
-								<h3>Hyderabad Office</h3>
+								<h3>Hyderabad</h3>
 								<div className="area-locations">
-									<span className="location-tag">H.no 12-1-331/82/B</span>
-									<span className="location-tag">Datteraya colony</span>
+									<span className="location-tag">Jubilee Hills</span>
+									<span className="location-tag">HITEC City</span>
+									<span className="location-tag">Gachibowli</span>
+									<span className="location-tag">Kondapur</span>
+									<span className="location-tag">Secunderabad</span>
+									<span className="location-tag">Kukatpally</span>
+									<span className="location-tag">Madhapur</span>
+									<span className="location-tag">Charminar</span>
 									<span className="location-tag">Asif Nagar</span>
-									<span className="location-tag">Hyderabad - 500028</span>
+									<span className="location-tag">Uppal</span>
+									<span className="location-tag">BHEL</span>
+									<span className="location-tag">All Areas</span>
 								</div>
 							</div>
 							<div className="area-card">
 								<div className="area-icon">🏢</div>
-								<h3>Khammam Office</h3>
+								<h3>Khammam</h3>
 								<div className="area-locations">
-									<span className="location-tag">H.no 14-3-106/1/A/1</span>
-									<span className="location-tag">Jayanagar colony</span>
-									<span className="location-tag">Road number 10</span>
-									<span className="location-tag">Khammam - 507002</span>
+									<span className="location-tag">Khammam City</span>
+									<span className="location-tag">Jayanagar</span>
+									<span className="location-tag">Kothagudem</span>
+									<span className="location-tag">Bhadrachalam</span>
+									<span className="location-tag">Paloncha</span>
+									<span className="location-tag">Sathupally</span>
 								</div>
 							</div>
 							<div className="area-card">
 								<div className="area-icon">🌍</div>
-								<h3>Service Coverage</h3>
+								<h3>Coverage</h3>
 								<div className="area-locations">
-									<span className="location-tag">All surrounding areas</span>
-									<span className="location-tag">Emergency service</span>
-									<span className="location-tag">24/7 availability</span>
+									<span className="location-tag">24/7 Service</span>
+									<span className="location-tag">Emergency</span>
+									<span className="location-tag">All Districts</span>
 									<span className="location-tag">Rapid response</span>
 									<span className="location-tag">Complete coverage</span>
 								</div>
