@@ -69,9 +69,9 @@ export default function NotFound() {
 							<h4>Need Immediate Help?</h4>
 							<p>For urgent pest problems, call us now for same-day service</p>
 							<div className="cta-actions">
-								<a href="tel:+919700111999" className="btn btn-primary">
+								<a href="tel:+919700299977" className="btn btn-primary">
 									<span className="btn-icon">📞</span>
-									Call +91-9700111999
+									Call +91 9700299977
 								</a>
 								<Link to="/contact" className="btn btn-secondary">
 									<span className="btn-icon">📝</span>

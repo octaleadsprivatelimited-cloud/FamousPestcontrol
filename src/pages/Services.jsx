@@ -24,19 +24,15 @@ export default function Services() {
 			{/* Page Header */}
 			<section className="page-header">
 				<div className="container">
-					<h1>Professional Pest Control Services</h1>
-					<p>Comprehensive pest management solutions for residential and commercial properties across Hyderabad</p>
+					<h1>Our Services</h1>
+					<p>Professional pest control solutions for your home and business</p>
 				</div>
 			</section>
 
-			{/* Residential Services */}
-			<section className="services-section">
+			{/* Services Grid */}
+			<section className="services-main">
 				<div className="container">
-					<div className="section-header">
-						<h2>Residential Pest Control Services</h2>
-						<p>Protect your home and family with our safe, effective pest control solutions</p>
-					</div>
-					<div className="services-grid">
+					<div className="services-grid-3x3">
 						{residentialServices.map(service => (
 							<ServiceCard 
 								key={service.slug} 
@@ -45,18 +41,6 @@ export default function Services() {
 								to={`/services/${service.slug}`} 
 							/>
 						))}
-					</div>
-				</div>
-			</section>
-
-			{/* Commercial Services */}
-			<section className="services-section commercial-services">
-				<div className="container">
-					<div className="section-header">
-						<h2>Commercial Pest Control Services</h2>
-						<p>Professional pest management for businesses, offices, and commercial properties</p>
-					</div>
-					<div className="services-grid">
 						{commercialServices.map(service => (
 							<ServiceCard 
 								key={service.slug} 
@@ -74,38 +58,38 @@ export default function Services() {
 				<div className="container">
 					<div className="section-header">
 						<h2>Why Choose Our Pest Control Services?</h2>
-						<p>We provide the most reliable and effective pest control solutions in Hyderabad</p>
+						<p>Discover what sets us apart as Hyderabad's leading pest control experts</p>
 					</div>
-					<div className="features-grid">
-						<div className="feature-item">
-							<div className="feature-icon">🛡️</div>
-							<h3>Safe & Eco-Friendly</h3>
-							<p>All our treatments are safe for families, pets, and the environment</p>
+					<div className="advantages-grid">
+						<div className="advantage-card">
+							<div className="advantage-icon">🛡️</div>
+							<h3>Safe & Eco-Friendly Solutions</h3>
+							<p>All our treatments are completely safe for families, pets, and the environment while being highly effective against pests.</p>
 						</div>
-						<div className="feature-item">
-							<div className="feature-icon">⚡</div>
-							<h3>Quick Response</h3>
-							<p>24/7 emergency service with same-day availability</p>
+						<div className="advantage-card">
+							<div className="advantage-icon">⚡</div>
+							<h3>24/7 Emergency Response</h3>
+							<p>Round-the-clock emergency service with same-day availability. We're always ready to help when you need us most.</p>
 						</div>
-						<div className="feature-item">
-							<div className="feature-icon">🏆</div>
-							<h3>Licensed Experts</h3>
-							<p>Certified technicians with years of experience</p>
+						<div className="advantage-card">
+							<div className="advantage-icon">🏆</div>
+							<h3>Licensed & Certified Experts</h3>
+							<p>Our certified technicians have years of experience and undergo regular training to stay updated with the latest techniques.</p>
 						</div>
-						<div className="feature-item">
-							<div className="feature-icon">💰</div>
-							<h3>Affordable Rates</h3>
-							<p>Competitive pricing with transparent, no-hidden-costs</p>
+						<div className="advantage-card">
+							<div className="advantage-icon">💰</div>
+							<h3>Transparent Pricing</h3>
+							<p>Competitive rates with completely transparent pricing. No hidden charges, surprise fees, or unexpected costs.</p>
 						</div>
-						<div className="feature-item">
-							<div className="feature-icon">🔒</div>
+						<div className="advantage-card">
+							<div className="advantage-icon">🔒</div>
 							<h3>Guaranteed Results</h3>
-							<p>Service warranty with follow-up support</p>
+							<p>We stand behind our work with comprehensive service warranties and follow-up support to ensure your complete satisfaction.</p>
 						</div>
-						<div className="feature-item">
-							<div className="feature-icon">📱</div>
-							<h3>Modern Technology</h3>
-							<p>State-of-the-art equipment and treatment methods</p>
+						<div className="advantage-card">
+							<div className="advantage-icon">📱</div>
+							<h3>Advanced Technology</h3>
+							<p>State-of-the-art equipment and cutting-edge treatment methods for the most effective pest control solutions.</p>
 						</div>
 					</div>
 				</div>
@@ -118,9 +102,9 @@ export default function Services() {
 						<h2>Need Professional Pest Control?</h2>
 						<p>Get a free inspection and quote today. Our experts are ready to help you create a pest-free environment.</p>
 						<div className="cta-actions">
-							<a href="tel:+919700111999" className="btn btn-primary">
+							<a href="tel:+919700299977" className="btn btn-primary">
 								<span className="btn-icon">📞</span>
-								Call +91-9700111999
+								Call +91 9700299977
 							</a>
 							<a href="/contact" className="btn btn-secondary">
 								<span className="btn-icon">📝</span>

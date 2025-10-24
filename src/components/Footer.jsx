@@ -10,7 +10,7 @@ export default function Footer() {
 						{/* Company Info */}
 						<div className="footer-section company-info">
 							<div className="footer-logo">
-								<h3>🛡️ Pest Control Hyderabad</h3>
+								<img src="/images/logo-transparent.png" alt="Famous Pest Control Services" className="footer-logo-img" />
 								<p className="tagline">Professional Pest Management Solutions</p>
 							</div>
 							<p className="company-desc">
@@ -20,15 +20,19 @@ export default function Footer() {
 							<div className="contact-info">
 								<div className="contact-item">
 									<span className="icon">📞</span>
-									<a href="tel:+919700111999">+91-9700111999</a>
+									<a href="tel:+919700299977">+91 9700299977</a>
 								</div>
 								<div className="contact-item">
 									<span className="icon">✉️</span>
-									<a href="mailto:pestcontrolhyd365@gmail.com">pestcontrolhyd365@gmail.com</a>
+									<a href="mailto:famouspestcontrolservices77@gmail.com">famouspestcontrolservices77@gmail.com</a>
 								</div>
 								<div className="contact-item">
 									<span className="icon">📍</span>
-									<span>Babu Jagjivanram Colony, Malkajgiri, Hyderabad</span>
+									<span>Hyderabad: H.no 12-1-331/82/B, Datteraya colony, Asif Nagar - 500028</span>
+								</div>
+								<div className="contact-item">
+									<span className="icon">📍</span>
+									<span>Khammam: H.no 14-3-106/1/A/1, Jayanagar colony, Road 10 - 507002</span>
 								</div>
 							</div>
 						</div>
@@ -70,14 +74,10 @@ export default function Footer() {
 							<div className="business-hours">
 								<h5>Business Hours</h5>
 								<div className="hours">
-									<div className="hours-item">
-										<span>Mon-Fri:</span>
-										<span>8AM-6PM</span>
-									</div>
-									<div className="hours-item">
-										<span>Sat:</span>
-										<span>9AM-4PM</span>
-									</div>
+								<div className="hours-item">
+									<span>Mon-Sat:</span>
+									<span>9.00-18.00</span>
+								</div>
 									<div className="hours-item emergency">
 										<span>Emergency:</span>
 										<span>24/7</span>
@@ -122,7 +122,7 @@ export default function Footer() {
 									<a href="#" className="social-link" aria-label="Facebook">📘</a>
 									<a href="#" className="social-link" aria-label="Twitter">🐦</a>
 									<a href="#" className="social-link" aria-label="Instagram">📷</a>
-									<a href="https://wa.me/919700111999" className="social-link" aria-label="WhatsApp">💬</a>
+									<a href="https://wa.me/919700299977" className="social-link" aria-label="WhatsApp">💬</a>
 								</div>
 							</div>
 						</div>
@@ -133,7 +133,7 @@ export default function Footer() {
 				<div className="footer-bottom">
 					<div className="footer-bottom-content">
 						<div className="copyright">
-							<p>&copy; 2024 Pest Control Hyderabad. All rights reserved.</p>
+							<p>&copy; 2024 Famous Pest Control Services. All rights reserved. | Developed by OctaLeads</p>
 						</div>
 						<div className="footer-links-bottom">
 							<a href="/privacy">Privacy</a>
