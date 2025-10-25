@@ -67,7 +67,7 @@
 		margin-bottom: 20px;
 		text-align: center;
 		color: #ffffff !important;
-		text-shadow: none;
+		text-shadow: 0 3px 12px rgba(0, 0, 0, 0.8);
 		display: block;
 		opacity: 1;
 		visibility: visible;
@@ -79,8 +79,8 @@
 		max-width: 90%;
 		margin-left: auto;
 		margin-right: auto;
-		color: rgba(255, 255, 255, 0.9) !important;
-		text-shadow: none;
+		color: rgba(255, 255, 255, 0.95) !important;
+		text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
 		display: block;
 		opacity: 1;
 		visibility: visible;
@@ -92,6 +92,8 @@
 		display: block;
 		opacity: 1;
 		visibility: visible;
+		color: #f39c12 !important;
+		text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 	}
 	.hero-tagline {
 		font-size: 0.85rem;
@@ -100,6 +102,8 @@
 		display: block;
 		opacity: 1;
 		visibility: visible;
+		color: #ffffff !important;
+		text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 	}
 	.hero-actions { 
 		flex-direction: column; 
@@ -325,7 +329,7 @@
 		margin-bottom: 18px;
 		text-align: center;
 		color: #ffffff !important;
-		text-shadow: none;
+		text-shadow: 0 3px 12px rgba(0, 0, 0, 0.8);
 		display: block;
 		opacity: 1;
 		visibility: visible;
@@ -337,8 +341,8 @@
 		max-width: 95%;
 		margin-left: auto;
 		margin-right: auto;
-		color: rgba(255, 255, 255, 0.9) !important;
-		text-shadow: none;
+		color: rgba(255, 255, 255, 0.95) !important;
+		text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
 		display: block;
 		opacity: 1;
 		visibility: visible;
@@ -350,6 +354,8 @@
 		display: block;
 		opacity: 1;
 		visibility: visible;
+		color: #f39c12 !important;
+		text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 	}
 	.hero-tagline {
 		font-size: 0.8rem;
@@ -358,6 +364,8 @@
 		display: block;
 		opacity: 1;
 		visibility: visible;
+		color: #ffffff !important;
+		text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 	}
 	.hero-actions { 
 		flex-direction: column; 
@@ -413,7 +421,7 @@
 		margin-bottom: 15px;
 		text-align: center;
 		color: #ffffff !important;
-		text-shadow: none;
+		text-shadow: 0 3px 12px rgba(0, 0, 0, 0.8);
 		display: block;
 		opacity: 1;
 		visibility: visible;
@@ -425,8 +433,8 @@
 		max-width: 98%;
 		margin-left: auto;
 		margin-right: auto;
-		color: rgba(255, 255, 255, 0.9) !important;
-		text-shadow: none;
+		color: rgba(255, 255, 255, 0.95) !important;
+		text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
 		display: block;
 		opacity: 1;
 		visibility: visible;
@@ -438,6 +446,8 @@
 		display: block;
 		opacity: 1;
 		visibility: visible;
+		color: #f39c12 !important;
+		text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 	}
 	.hero-tagline {
 		font-size: 0.75rem;
@@ -446,6 +456,8 @@
 		display: block;
 		opacity: 1;
 		visibility: visible;
+		color: #ffffff !important;
+		text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 	}
 	.hero-actions { 
 		flex-direction: column; 
@@ -565,7 +577,7 @@
 		margin-bottom: 12px;
 		text-align: center;
 		color: #ffffff !important;
-		text-shadow: none;
+		text-shadow: 0 3px 12px rgba(0, 0, 0, 0.8);
 		display: block;
 		opacity: 1;
 		visibility: visible;
@@ -577,8 +589,8 @@
 		max-width: 100%;
 		margin-left: auto;
 		margin-right: auto;
-		color: rgba(255, 255, 255, 0.9) !important;
-		text-shadow: none;
+		color: rgba(255, 255, 255, 0.95) !important;
+		text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
 		display: block;
 		opacity: 1;
 		visibility: visible;
@@ -590,6 +602,8 @@
 		display: block;
 		opacity: 1;
 		visibility: visible;
+		color: #f39c12 !important;
+		text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 	}
 	.hero-tagline {
 		font-size: 0.7rem;
@@ -598,6 +612,8 @@
 		display: block;
 		opacity: 1;
 		visibility: visible;
+		color: #ffffff !important;
+		text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 	}
 	.hero-actions { 
 		flex-direction: column; 
@@ -751,7 +767,7 @@
 		margin-bottom: 15px;
 		text-align: center;
 		color: #ffffff !important;
-		text-shadow: none;
+		text-shadow: 0 3px 12px rgba(0, 0, 0, 0.8);
 		display: block;
 		opacity: 1;
 		visibility: visible;
@@ -763,8 +779,8 @@
 		max-width: 90%;
 		margin-left: auto;
 		margin-right: auto;
-		color: rgba(255, 255, 255, 0.9) !important;
-		text-shadow: none;
+		color: rgba(255, 255, 255, 0.95) !important;
+		text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
 		display: block;
 		opacity: 1;
 		visibility: visible;
@@ -776,6 +792,8 @@
 		display: block;
 		opacity: 1;
 		visibility: visible;
+		color: #f39c12 !important;
+		text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 	}
 	.hero-tagline {
 		font-size: 0.75rem;
