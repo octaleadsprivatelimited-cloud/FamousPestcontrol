@@ -439,6 +439,159 @@ p {
 .footer-inner { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; padding: 32px 0; }
 .footer-bottom { border-top: 1px solid rgba(255,255,255,.15); padding: 12px 0; font-size: 14px; color: #e5e7eb; }
 
+/* Legal Pages Styling */
+.privacy-page, .terms-page, .sitemap-page {
+	background: #ffffff;
+}
+
+.privacy-content, .terms-content, .sitemap-content {
+	padding: 60px 0;
+}
+
+.privacy-section, .terms-section {
+	margin-bottom: 40px;
+	padding: 30px;
+	background: #f8fafc;
+	border-radius: 12px;
+	border-left: 4px solid #ed8936;
+}
+
+.privacy-section h2, .terms-section h2 {
+	color: #1a365d;
+	margin-bottom: 20px;
+	font-size: 1.5rem;
+}
+
+.privacy-section p, .terms-section p {
+	color: #4a5568;
+	line-height: 1.7;
+	margin-bottom: 15px;
+}
+
+.privacy-section ul, .terms-section ul {
+	color: #4a5568;
+	line-height: 1.7;
+	margin-left: 20px;
+}
+
+.privacy-section li, .terms-section li {
+	margin-bottom: 8px;
+}
+
+.contact-info {
+	background: #e6fffa;
+	padding: 20px;
+	border-radius: 8px;
+	margin-top: 15px;
+}
+
+.contact-info p {
+	margin-bottom: 8px;
+	color: #2d3748;
+}
+
+/* Sitemap Styling */
+.sitemap-content {
+	padding: 60px 0;
+}
+
+.sitemap-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 40px;
+	margin-bottom: 60px;
+}
+
+.sitemap-section {
+	background: #f8fafc;
+	padding: 30px;
+	border-radius: 12px;
+	border-left: 4px solid #ed8936;
+}
+
+.sitemap-section h2 {
+	color: #1a365d;
+	margin-bottom: 20px;
+	font-size: 1.5rem;
+}
+
+.sitemap-section h3 {
+	color: #2d3748;
+	margin-bottom: 15px;
+	font-size: 1.2rem;
+}
+
+.sitemap-links {
+	list-style: none;
+	padding: 0;
+}
+
+.sitemap-links li {
+	margin-bottom: 10px;
+}
+
+.sitemap-links a {
+	color: #ed8936;
+	text-decoration: none;
+	font-weight: 500;
+	transition: color 0.3s ease;
+}
+
+.sitemap-links a:hover {
+	color: #1a365d;
+	text-decoration: underline;
+}
+
+.area-links {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.area-links li {
+	margin-bottom: 5px;
+	color: #4a5568;
+}
+
+.contact-details p {
+	margin-bottom: 8px;
+	color: #2d3748;
+}
+
+.sitemap-info {
+	background: #e6fffa;
+	padding: 40px;
+	border-radius: 12px;
+	margin-top: 40px;
+}
+
+.sitemap-info h2 {
+	color: #1a365d;
+	margin-bottom: 20px;
+}
+
+.sitemap-info h3 {
+	color: #2d3748;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+
+.sitemap-info p {
+	color: #4a5568;
+	line-height: 1.7;
+	margin-bottom: 15px;
+}
+
+.sitemap-info ul {
+	color: #4a5568;
+	line-height: 1.7;
+	margin-left: 20px;
+}
+
+.sitemap-info li {
+	margin-bottom: 8px;
+}
+
 /* Hero Section - Modern UI/UX Design */
 .hero-section {
 	position: relative;

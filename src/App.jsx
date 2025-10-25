@@ -8,6 +8,9 @@ import Services from './pages/Services.jsx'
 import ServiceDetail from './pages/ServiceDetail.jsx'
 import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
+import Privacy from './pages/Privacy.jsx'
+import Terms from './pages/Terms.jsx'
+import Sitemap from './pages/Sitemap.jsx'
 import NotFound from './pages/NotFound.jsx'
 import { initAllAnimations } from './utils/animations.js'
 // Service Pages
@@ -60,6 +63,9 @@ export default function App() {
 					<Route path="/services/sanitization" element={<Sanitization />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/contact" element={<Contact />} />
+					<Route path="/privacy" element={<Privacy />} />
+					<Route path="/terms" element={<Terms />} />
+					<Route path="/sitemap" element={<Sitemap />} />
 					<Route path="*" element={<NotFound />} />
 				</Routes>
 			</main>
