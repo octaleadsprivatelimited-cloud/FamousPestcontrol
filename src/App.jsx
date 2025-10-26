@@ -15,6 +15,7 @@ import Contact from './pages/Contact.jsx'
 import Privacy from './pages/Privacy.jsx'
 import Terms from './pages/Terms.jsx'
 import Sitemap from './pages/Sitemap.jsx'
+import KhammamLocation from './pages/KhammamLocation.jsx'
 import NotFound from './pages/NotFound.jsx'
 import { initAllAnimations } from './utils/animations.js'
 // Service Pages
@@ -74,6 +75,7 @@ export default function App() {
 					<Route path="/privacy" element={<Privacy />} />
 					<Route path="/terms" element={<Terms />} />
 					<Route path="/sitemap" element={<Sitemap />} />
+					<Route path="/khammam-location" element={<KhammamLocation />} />
 					<Route path="*" element={<NotFound />} />
 				</Routes>
 			</main>
