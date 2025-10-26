@@ -1,5 +1,7 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import FloatingButtons from './components/FloatingButtons.jsx'
@@ -44,6 +46,8 @@ export default function App() {
 	return (
 		<div className="app-root">
 			<GoogleAnalytics />
+			<Analytics />
+			<SpeedInsights />
 			<Header />
 			<main className="main-content">
 				<Routes>
