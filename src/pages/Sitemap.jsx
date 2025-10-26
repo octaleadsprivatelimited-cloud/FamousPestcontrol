@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom'
+import SEO from '../components/SEO.jsx'
+import { seoData } from '../data/seoData.js'
 
 export default function Sitemap() {
 	return (
 		<div className="sitemap-page">
+			<SEO {...seoData.sitemap} />
 			{/* Page Header */}
 			<section className="page-header">
 				<div className="container">

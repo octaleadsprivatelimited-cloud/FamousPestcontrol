@@ -1,6 +1,10 @@
+import SEO from '../components/SEO.jsx'
+import { seoData } from '../data/seoData.js'
+
 export default function About() {
 	return (
 		<div className="about-page">
+			<SEO {...seoData.about} />
 			{/* Page Header */}
 			<section className="page-header">
 				<div className="container">

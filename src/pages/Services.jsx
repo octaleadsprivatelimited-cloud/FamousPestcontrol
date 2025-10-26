@@ -18,9 +18,13 @@ const commercialServices = [
 	{ slug: 'sanitization', title: 'Sanitization Services', excerpt: 'Deep cleaning and sanitization for commercial properties.' },
 ]
 
+import SEO from '../components/SEO.jsx'
+import { seoData } from '../data/seoData.js'
+
 export default function Services() {
 	return (
 		<div className="services-page">
+			<SEO {...seoData.services} />
 			{/* Page Header */}
 			<section className="page-header">
 				<div className="container">

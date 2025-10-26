@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom'
 
+import SEO from '../components/SEO.jsx'
+import { seoData } from '../data/seoData.js'
+
 export default function Privacy() {
 	return (
 		<div className="privacy-page">
+			<SEO {...seoData.privacy} />
 			{/* Page Header */}
 			<section className="page-header">
 				<div className="container">

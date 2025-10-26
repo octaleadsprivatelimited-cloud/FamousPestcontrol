@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import { trackServiceView } from '../../components/GoogleAnalytics.jsx'
+import SEO from '../../components/SEO.jsx'
+import { seoData } from '../../data/seoData.js'
 
 export default function TermiteControl() {
 	useEffect(() => {
@@ -8,6 +10,7 @@ export default function TermiteControl() {
 	}, [])
 	return (
 		<div className="service-detail-page">
+			<SEO {...seoData.termiteControl} />
 			{/* Page Header */}
 			<section className="service-header">
 				<div className="container">

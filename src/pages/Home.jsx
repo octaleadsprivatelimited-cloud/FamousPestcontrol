@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom'
 import ServiceCard from '../components/ServiceCard.jsx'
+import SEO from '../components/SEO.jsx'
+import { seoData } from '../data/seoData.js'
 
 export default function Home() {
 	return (
 		<div className="home-page">
+			<SEO {...seoData.home} />
 			{/* Hero Section */}
 			<section className="hero-section animate-on-scroll">
 				<div className="hero-background">

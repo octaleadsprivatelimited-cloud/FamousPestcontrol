@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { trackFormSubmission, trackPhoneCall } from '../components/GoogleAnalytics.jsx'
+import SEO from '../components/SEO.jsx'
+import { seoData } from '../data/seoData.js'
 
 export default function Contact() {
     const [form, setForm] = useState({ name: '', phone: '', email: '', service: '', message: '' })
@@ -59,8 +61,9 @@ export default function Contact() {
         }
     }
 
-    return (
-        <div className="contact-page">
+	return (
+		<div className="contact-page">
+			<SEO {...seoData.contact} />
             {/* Page Header */}
             <section className="page-header">
                 <div className="container">
