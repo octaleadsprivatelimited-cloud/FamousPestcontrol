@@ -1,4 +1,10 @@
+import { trackPhoneCall } from './GoogleAnalytics.jsx'
+
 export default function FloatingButtons() {
+	const handlePhoneClick = () => {
+		trackPhoneCall('+919700299977')
+	}
+
 	return (
 		<div className="floating-contact-panel">
 			{/* Call Button */}
@@ -7,6 +13,7 @@ export default function FloatingButtons() {
 				className="contact-btn call-btn"
 				aria-label="Call Us"
 				title="Call +91 9700299977"
+				onClick={handlePhoneClick}
 			>
 				<div className="contact-btn-icon">
 					<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">

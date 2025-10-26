@@ -1,6 +1,11 @@
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
+import { trackServiceView } from '../../components/GoogleAnalytics.jsx'
 
 export default function TermiteControl() {
+	useEffect(() => {
+		trackServiceView('Termite Control')
+	}, [])
 	return (
 		<div className="service-detail-page">
 			{/* Page Header */}

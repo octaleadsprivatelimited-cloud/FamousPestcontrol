@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import FloatingButtons from './components/FloatingButtons.jsx'
+import GoogleAnalytics from './components/GoogleAnalytics.jsx'
 import Home from './pages/Home.jsx'
 import Services from './pages/Services.jsx'
 import ServiceDetail from './pages/ServiceDetail.jsx'
@@ -42,6 +43,7 @@ export default function App() {
 
 	return (
 		<div className="app-root">
+			<GoogleAnalytics />
 			<Header />
 			<main className="main-content">
 				<Routes>

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { trackFormSubmission, trackPhoneCall } from '../components/GoogleAnalytics.jsx'
 
 export default function Contact() {
     const [form, setForm] = useState({ name: '', phone: '', email: '', service: '', message: '' })
@@ -45,6 +46,7 @@ export default function Contact() {
                 if (!res.ok) throw new Error('Submission failed')
                 setSuccess(true)
                 setForm({ name: '', phone: '', email: '', service: '', message: '' })
+                trackFormSubmission('contact_form')
                 return
             }
             const subject = encodeURIComponent(`Pest Control Quote Request - ${form.service}`)
